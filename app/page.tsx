@@ -22,12 +22,16 @@ import {
 import { StarButton } from "@/components/ui/star-button";
 
 const galleryImages = [
-  { src: "/gallery/gallery-1.jpg", alt: "Traditional Igorot dance with pot-balancing" },
-  { src: "/gallery/gallery-2.jpg", alt: "Group performance with bamboo sticks" },
-  { src: "/gallery/gallery-3.jpg", alt: "Dramatic scene from the theatrical production" },
-  { src: "/gallery/gallery-4.jpg", alt: "Full cast finale on stage" },
-  { src: "/gallery/gallery-5.jpg", alt: "Community celebration and curtain call" },
-  { src: "/gallery/gallery-6.jpg", alt: "Dancers in traditional attire under red lighting" },
+  { src: "/gallery/25-04-24_event_shots_021_DSC04019.jpg", alt: "PACN highlight 1" },
+  { src: "/gallery/25-04-24_event_shots_024_DSC04064.jpg", alt: "PACN highlight 2" },
+  { src: "/gallery/25-04-25_event_shots_084_PYPV9260.jpg", alt: "PACN highlight 3" },
+  { src: "/gallery/25-04-25_event_shots_271_PYPV1306.jpg", alt: "PACN highlight 4" },
+  { src: "/gallery/25-04-25_event_shots_335_PYPV1721.jpg", alt: "PACN highlight 5" },
+  { src: "/gallery/25-04-25_event_shots_370_PYPV2096.jpg", alt: "PACN highlight 6" },
+  { src: "/gallery/25-04-25_event_shots_489_PYPV3017.jpg", alt: "PACN highlight 7" },
+  { src: "/gallery/25-04-25_event_shots_607_IMG_3589.jpg", alt: "PACN highlight 8" },
+  { src: "/gallery/25-04-25_event_shots_658_PYPV4195.jpg", alt: "PACN highlight 9" },
+  { src: "/gallery/25-04-25_event_shots_713_IMG_3758.jpg", alt: "PACN highlight 10" },
 ];
 
 export default function Home() {
