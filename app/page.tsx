@@ -142,7 +142,7 @@ export default function Home() {
               <div className="about-stat-label">Years of Tradition</div>
             </div>
             <div className="about-stat">
-              <div className="about-stat-number">100+</div>
+              <div className="about-stat-number">300+</div>
               <div className="about-stat-label">Student Performers</div>
             </div>
             <div className="about-stat">
@@ -161,8 +161,8 @@ export default function Home() {
         <SparkleField />
 
         <div className="section-header reveal">
-          <p className="section-label">Gallery</p>
-          <h2 className="section-title">Moments That Move Us</h2>
+          <p className="section-label">Looking Back</p>
+          <h2 className="section-title">PACN 46 Highlights</h2>
           <CelestialDivider />
         </div>
 
