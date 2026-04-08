@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 @import "tailwindcss";
 
 /* ═══════════════════════════════════════════════════════════════
@@ -284,43 +285,44 @@ body {
   position: relative;
 }
 
-.hero-title {
-  font-family: var(--font-heading);
-  font-size: clamp(4.5rem, 12vw, 10rem);
+.hero-script-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: clamp(5rem, 16vw, 13rem);
   font-weight: 700;
-  line-height: 0.9;
-  letter-spacing: 0.08em;
-  margin: 0 0 0.15em;
-  color: var(--gold);
-  text-shadow:
-    0 0 60px rgba(201,168,76,0.4),
-    0 0 120px rgba(201,168,76,0.15),
-    0 2px 4px rgba(0,0,0,0.3);
+  line-height: 0.95;
+  filter: drop-shadow(0 4px 15px rgba(0,0,0,0.6));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
+  z-index: 10;
+  transform: rotate(-4deg);
+  margin: 0.5rem 0 0.5rem;
 }
 
-/* Gold shimmer sweep overlay */
-.hero-title::after {
-  content: 'PACN 47';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    105deg,
-    transparent 0%,
-    transparent 35%,
-    rgba(232,212,154,0.5) 45%,
-    rgba(232,212,154,0.8) 50%,
-    rgba(232,212,154,0.5) 55%,
-    transparent 65%,
-    transparent 100%
-  );
-  background-size: 300% 100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: shimmerText 5s ease-in-out infinite;
-  pointer-events: none;
+.hero-script-araw {
+  display: block;
+  align-self: center;
+  margin-left: -15%;
+  margin-bottom: 0;
+  color: #F4CD6A; /* Brilliant pristine gold */
+  text-shadow:
+    1px 2px 2px rgba(135,84,20,0.8), /* subtle 3D emboss */
+    0 0 15px rgba(244,205,106,0.3);  /* matching outer glow */
 }
+
+.hero-script-gabi {
+  display: block;
+  align-self: center;
+  margin-left: 20%;
+  margin-top: 0.05em;
+  color: #F4CD6A; /* Synchronized to match Araw exactly */
+  text-shadow:
+    1px 2px 2px rgba(135,84,20,0.8),
+    0 0 15px rgba(244,205,106,0.3);
+}
+
+
 
 .hero-number {
   font-family: var(--font-heading);

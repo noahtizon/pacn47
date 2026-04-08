@@ -63,32 +63,26 @@ export default function Home() {
           style={{ bottom: '35%', right: '12%', animationDuration: '100s', opacity: 0.2 } as React.CSSProperties} />
 
         <div className="hero-content">
-          <p className="hero-tagline animate-fade-in-up">
-            Pilipinx-American Culture Night
+          <p className="hero-tagline animate-fade-in-up mb-2 opacity-80 text-[var(--gold-light)] text-[0.75rem] tracking-[0.3em]">
+            Kababayan at UCI Presents...
           </p>
 
-          <h1 className="hero-title animate-fade-in-up delay-200">
-            PACN 47
+          <h1 className="hero-script-title animate-title-up">
+            <div className="hero-script-araw">Araw</div>
+            <div className="hero-script-gabi">Gabi</div>
           </h1>
 
-          <p className="hero-number animate-fade-in-up delay-300">
-            Araw Gabi
-          </p>
-
-          <div className="hero-divider-wrap animate-fade-in delay-500">
-            <div className="hero-divider-line" />
-            <div className="hero-divider-star">
-              <Sparkle size={16} color="#C9A84C" />
-            </div>
-            <div className="hero-divider-line" />
+          <div className="text-center font-sans tracking-[0.6em] text-[var(--blue-light)] text-[0.8rem] font-bold mt-4 mb-5 animate-fade-in-up delay-300 drop-shadow-[0_0_10px_rgba(123,156,199,0.3)]">
+            DAY - NIGHT
           </div>
 
-          <p className="hero-subtitle animate-fade-in-up delay-600">
-            A student-produced theatrical celebration of Pilipinx-American
-            identity, heritage, and community at UC&nbsp;Irvine.
-          </p>
+          <div className="animate-fade-in-up delay-500 font-sans text-center mb-8">
+            <span className="block text-xl md:text-3xl tracking-[0.3em] md:tracking-[0.5em] text-[var(--gold)] font-bold uppercase drop-shadow-[0_0_15px_rgba(201,168,76,0.3)]">
+              PACN 47
+            </span>
+          </div>
 
-          <div className="animate-fade-in-up delay-700 flex justify-center w-full mt-6">
+          <div className="animate-fade-in-up delay-700 flex justify-center w-full mt-2">
             <StarButton 
               lightColor="#DFC06E" 
               backgroundColor="#060E24" 

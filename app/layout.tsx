@@ -6,7 +6,6 @@ const playfair = Playfair_Display({
   variable: "--font-playfair",
   subsets: ["latin"],
   display: "swap",
-  weight: ["400", "600", "700"],
   style: ["normal", "italic"],
 });
 
@@ -14,7 +13,6 @@ const dmSans = DM_Sans({
   variable: "--font-dm-sans",
   subsets: ["latin"],
   display: "swap",
-  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -28,15 +26,9 @@ export const metadata: Metadata = {
     "UCI",
     "UC Irvine",
     "Filipino culture",
-    "cultural show",
-    "student theater",
+    "Kababayan",
   ],
-  openGraph: {
-    title: "PACN 47: Araw Gabi — Pilipinx-American Culture Night",
-    description:
-      "A student-produced theatrical celebration of Pilipinx-American identity, heritage, and community at UC Irvine.",
-    type: "website",
-  },
+  authors: [{ name: "Kababayan at UCI" }],
 };
 
 export default function RootLayout({
@@ -45,11 +37,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${playfair.variable} ${dmSans.variable} antialiased`}
-    >
-      <body>{children}</body>
+    <html lang="en" className="dark">
+      <body className={`${playfair.variable} ${dmSans.variable} antialiased`}>{children}</body>
     </html>
   );
 }
