@@ -88,7 +88,7 @@ export default function Home() {
               backgroundColor="#060E24" 
               className="text-[1.1rem] h-14 px-8 font-bold border-[rgba(201,168,76,0.4)] shadow-[0_0_30px_rgba(201,168,76,0.2)] tracking-wide cursor-pointer hover:scale-[1.03] hover:shadow-[0_0_40px_rgba(201,168,76,0.5)] hover:border-[var(--gold)]/80 hover:bg-[rgba(201,168,76,0.15)] transition-all duration-300"
               onClick={() => {
-                window.open('https://www.instagram.com/pacnatuci/', '_blank');
+                window.open('https://tinyurl.com/pacn47tix', '_blank');
               }}
             >
               Get Tickets
@@ -260,7 +260,7 @@ export default function Home() {
           Secure your seats for an unforgettable evening of culture,
           community, and celebration.
         </p>
-        <a href="#" className="hero-cta" id="cta-tickets">
+        <a href="https://tinyurl.com/pacn47tix" target="_blank" rel="noopener noreferrer" className="hero-cta" id="cta-tickets">
           <span>Get Tickets</span>
           <svg
             width="14"
@@ -298,7 +298,7 @@ export default function Home() {
           <a href="#about">About</a>
           <a href="#gallery">Gallery</a>
           <a href="#details">Details</a>
-          <a href="#">Tickets</a>
+          <a href="https://tinyurl.com/pacn47tix" target="_blank" rel="noopener noreferrer">Tickets</a>
         </nav>
 
         <div className="footer-social" aria-label="Social media links">
