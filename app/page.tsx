@@ -242,7 +242,7 @@ export default function Home() {
             </div>
             <div className="detail-card-title">Showtime</div>
             <div className="detail-card-value">
-              Doors at 5:30&thinsp;PM<br />
+              Doors at 5:00&thinsp;PM<br />
               Show at 6:00&thinsp;PM
             </div>
           </div>
